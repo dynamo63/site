@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous|Montserrat|karla|Monoton|Poiret+One|Poppins&display=swap');
+
+body{
+    margin: 0;
+}
+
+
+/* ------------------------------ Header Style ------------------------------------*/
+
+header{
+    background-image: linear-gradient(to bottom,rgba(5, 5, 5, 0.781),rgba(10, 9, 9, 0.836)),url('../img/girl-447701_1920.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+.banner{
+    position: absolute;
+    top: 20vh;
+    left: 10vw;
+    text-align: left;
+    width: 400px;
+}
+
+.banner p{
+    font-family: 'Montserrat','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner h1{
+    font-family: 'Righteous',cursive;
+    font-size: 1.5em;
+}
+
+.banner ul{
+    text-align: right;
+}
+
+.banner ul li{
+    display: inline-block;
+    margin-right: 2em;
+    border: 1px solid white;
+    padding: 5px 10px;
+    background-color: white;
+}
+
+.banner ul li>a{
+    color: black;
+}
