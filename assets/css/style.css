@@ -2,8 +2,32 @@
 
 body{
     margin: 0;
+    overflow-x: hidden;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: 'Montserrat','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hidden{
+    display: none;
+}
+
+.heading-1{
+    text-align: center;
+    font-family: 'Righteous',cursive;
+    font-size: xx-large;
+    margin-bottom: 1.2em;
+}
+
+.mb-6{
+    margin-bottom: 6em;
+}
 
 /* ------------------------------ Header Style ------------------------------------*/
 
@@ -26,12 +50,13 @@ header{
 }
 
 .banner p{
-    font-family: 'Montserrat','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
 }
 
 .banner h1{
     font-family: 'Righteous',cursive;
     font-size: 1.5em;
+    margin-bottom: 12px;
 }
 
 .banner ul{
@@ -48,4 +73,143 @@ header{
 
 .banner ul li>a{
     color: black;
+}
+
+
+/* ================================ Navbar Style ====================== */
+
+nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: black;
+}
+
+.nav-desktop{
+    width: 60%;
+    margin: auto;
+    padding: 1.3em 0;
+}
+
+.nav-desktop ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-desktop ul li>a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Poppins','Courier New', Courier, monospace;
+    padding: 2px 5px;
+}
+
+.nav-desktop ul li>a:hover{
+    background-color: white;
+    color: black;
+}
+
+.nav-mobile{
+    display: none;
+}
+
+
+/* ================== About me Section ========================= */
+
+#about-me > h1 + p{
+    text-align: center;
+    margin-bottom: 1.2em;
+}
+
+.content__about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+.content__about .information{
+    width: 45%;
+}
+
+/* Skill (HTML,CSS,JS,...) */
+
+.information:last-child span{
+    font-family: 'Poppins',cursive;
+}
+
+.information:last-child .bar{
+    margin-bottom: 1em;
+}
+
+.bar{
+    width: 100%;
+    height: 5px;
+    background-color: rgba(182, 179, 179, 0.89);
+}
+
+.info__bar{
+    font-family: 'Poppins',cursive;
+}
+
+.info__bar span{
+    float: right;
+}
+
+.progress__bar{
+    height: 100%;
+    background-color: rgba(17, 15, 15, 0.932);
+}
+
+.html5{
+    width: 90%;
+}
+
+.css3{
+    width: 76%;
+}
+
+.javascript{
+    width: 70%;
+}
+
+.python3{
+    width: 80%;
+}
+
+.php{
+    width: 20%;
+}
+
+/* ================ Skill Style ======================== */
+
+
+
+.box__skill{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+    font-family: 'Poppins',cursive;
+}
+
+.content > img{
+    width: 200px;
+    height: auto;
+}
+
+.content:not(img){
+    text-align: center;
+}
+
+.content h4{
+    font-size: x-large;
+}
+
+.content ul{
+    list-style: none;
 }
