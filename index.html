@@ -62,13 +62,13 @@
                     <a href="#">Acceuil</a>
                 </li>
                 <li>
-                    <a href="#">A Propos de moi</a>
+                    <a href="#about-me">A Propos de moi</a>
                 </li>
                 <li>
-                    <a href="#">Services</a>
+                    <a href="#skill">Services</a>
                 </li>
                 <li>
-                    <a href="#">Competences</a>
+                    <a href="#project">Realisations</a>
                 </li>
                 <li>
                     <a href="#"> Blog </a>
@@ -98,97 +98,200 @@
 
     </nav>
 
-    <!-- A Propos de moi -->
+    <main>
+         <!-- A Propos de moi -->
 
-    <section id="about-me" class="mb-6">
+        <section id="about-me" class="mb-6">
 
-        <h1 class="heading-1">A Propos de moi</h1>
+            <h1 class="heading-1 center">A Propos de moi</h1>
 
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, ipsam.</p>
+            <p class="center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, ipsam.</p>
 
-        <div class="content__about">
+            <div class="row container">
 
-            <div class="information">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta illum qui repudiandae. Suscipit illum magni quasi consequatur vitae, esse excepturi pariatur at! A accusantium nisi aperiam quae culpa cumque assumenda ut, ea perspiciatis animi. Eos!</p>
+                <div class="information">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta illum qui repudiandae. Suscipit illum magni quasi consequatur vitae, esse excepturi pariatur at! A accusantium nisi aperiam quae culpa cumque assumenda ut, ea perspiciatis animi. Eos!</p>
+                </div>
+
+                <div class="information">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    <br>
+                    <div>
+                        <div class="info__bar">
+                            HTML5 <span>90%</span>
+                        </div>
+                        <div class="bar">
+                            <div class="html5 progress__bar"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="info__bar">
+                            CSS3 <span>76%</span>
+                        </div>
+                        <div class="bar">
+                            <div class="css3 progress__bar"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="info__bar">
+                            JavaScript <span>70%</span>
+                        </div>
+                        <div class="bar">
+                            <div class="javascript progress__bar"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="info__bar">
+                            Python3 <span>80%</span>
+                        </div>
+                        <div class="bar">
+                            <div class="python3 progress__bar"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="info__bar">
+                            PHP7 <span>20%</span>
+                        </div>
+                        <div class="bar">
+                            <div class="php progress__bar"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+
             </div>
 
-            <div class="information">
+        </section>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <br>
-                <div>
-                    <div class="info__bar">
-                        HTML5 <span>90%</span>
-                    </div>
-                    <div class="bar">
-                        <div class="html5 progress__bar"></div>
-                    </div>
+        <!-- Skill Section  -->
+
+        <section id="skill" class="mb-6">
+            <h1 class="heading-1 center">Services</h1>
+
+            <p class="center">
+                Je suis disponible de 7h a 18h du Lundi au Samedi. <br/>
+                <b>Voici mes services</b>
+            </p>
+
+            <div class="box__skill container row">
+                <div class="content center">
+                    <img src="assets/img/44d13b1f-e247-4e6f-a8f6-6e4fe3c9efbe_200x200.png" alt="frontend">
+                    <h4>Frontend</h4>
+                    <ul>
+                        <li>Bootstrap</li>
+                        <li>Materialize</li>
+                        <li>React.js</li>
+                    </ul>
                 </div>
-                <div>
-                    <div class="info__bar">
-                        CSS3 <span>76%</span>
-                    </div>
-                    <div class="bar">
-                        <div class="css3 progress__bar"></div>
-                    </div>
+                <div class="content center">
+                    <img src="assets/img/settings.png" alt="backend">
+                    <h4>Backend</h4>
+                    <ul>
+                        <li>Django</li>
+                        <li>Laravel</li>
+                        <li>Flask</li>
+                    </ul>
                 </div>
-                <div>
-                    <div class="info__bar">
-                        JavaScript <span>70%</span>
-                    </div>
-                    <div class="bar">
-                        <div class="javascript progress__bar"></div>
-                    </div>
+                <div class="content center">
+                    <img src="assets/img/c647c5b8-7d2b-4a1d-a1a3-f03a79dde4f4_200x200.png" alt="Collaboratif">
+                    <h4>Collaboratif</h4>
+                    <ul>
+                        <li>Esprit d'equipe</li>
+                        <li>Adaptabilite</li>
+                        <li>Responsable</li>
+                    </ul>
                 </div>
-                <div>
-                    <div class="info__bar">
-                        Python3 <span>80%</span>
-                    </div>
-                    <div class="bar">
-                        <div class="python3 progress__bar"></div>
-                    </div>
-                </div>
-                <div>
-                    <div class="info__bar">
-                        PHP7 <span>20%</span>
-                    </div>
-                    <div class="bar">
-                        <div class="php progress__bar"></div>
-                    </div>
-                </div>
-                
             </div>
+        </section>
 
+        <!-- Realisation Section -->
+
+        <section id="project" class="mb-6">
+
+            <h1 class="heading-1 center">Realisations</h1>
+
+            <div class="container row">
+
+                <div class="card">
+                    <figure>
+                        <img src="assets/img/board.jpg" alt="Tableau">
+                        <figcaption>
+                            Tableau
+                        </figcaption>
+                    </figure>
+                    <div class="card__text">
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, sed!</p>
+                       <a href="#">
+                           Voir <i class="fa fa-plus" aria-hidden="true"></i>
+                       </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <figure>
+                        <img src="assets/img/portfolio_pic6.jpg" alt="Media">
+                        <figcaption>
+                            Media
+                        </figcaption>
+                    </figure>
+                    <div class="card__text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, sed!</p>
+                        <a href="#">
+                            Voir <i class="fa fa-plus" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <figure>
+                        <img src="assets/img/letter.jpg" alt="Lettre">
+                        <figcaption>
+                            Lettre
+                        </figcaption>
+                    </figure>
+                    <div class="card__text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, sed!</p>
+                        <a href="#">
+                            Voir <i class="fa fa-plus" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <figure>
+                        <img src="assets/img/login-form-46891.png" alt="Lettre">
+                        <figcaption>
+                            Formulaire
+                        </figcaption>
+                    </figure>
+                    <div class="card__text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, sed!</p>
+                        <a href="#">
+                            Voir <i class="fa fa-plus" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            
+        </section>
+
+    </main>
+
+    <footer>
+        
+        <div class="container row">
+            <div>
+                <i class="fa fa-copyright" aria-hidden="true"></i>
+                Copyright by me 2019
+            </div>
+            <a href="#">
+                <i class="fa fa-github-square" aria-hidden="true"></i>
+            </a>
         </div>
 
-    </section>
-
-    <!-- Skill Section  -->
-
-    <section id="skill">
-        <h1 class="heading-1">Mes Skills</h1>
-
-        <div class="box__skill">
-            <div class="content">
-                <img src="assets/img/44d13b1f-e247-4e6f-a8f6-6e4fe3c9efbe_200x200.png" alt="frontend">
-                <h4>Frontend</h4>
-                <ul>
-                    <li>Bootstrap</li>
-                    <li>Materialize</li>
-                    <li>React.js</li>
-                </ul>
-            </div>
-            <div class="content">
-                <img src="assets/img/settings.png" alt="backend">
-                <h4>Backend</h4>
-                <ul>
-                    <li>Django</li>
-                    <li>Laravel</li>
-                    <li>Flask</li>
-                </ul>
-            </div>
-        </div>
-    </section>
+    </footer>
 
 </body>
 </html>

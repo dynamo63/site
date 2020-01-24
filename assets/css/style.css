@@ -18,8 +18,16 @@ p{
     display: none;
 }
 
-.heading-1{
+.center{
     text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.heading-1{
     font-family: 'Righteous',cursive;
     font-size: xx-large;
     margin-bottom: 1.2em;
@@ -27,6 +35,12 @@ p{
 
 .mb-6{
     margin-bottom: 6em;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 /* ------------------------------ Header Style ------------------------------------*/
@@ -61,6 +75,7 @@ header{
 
 .banner ul{
     text-align: right;
+
 }
 
 .banner ul li{
@@ -95,6 +110,7 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    list-style: none;
 }
 
 .nav-desktop ul li>a{
@@ -119,19 +135,10 @@ nav{
 /* ================== About me Section ========================= */
 
 #about-me > h1 + p{
-    text-align: center;
     margin-bottom: 1.2em;
 }
 
-.content__about{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 80%;
-    margin: auto;
-}
-
-.content__about .information{
+.information{
     width: 45%;
 }
 
@@ -189,27 +196,70 @@ nav{
 
 
 .box__skill{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 80%;
-    margin: auto;
     font-family: 'Poppins',cursive;
 }
 
-.content > img{
+.box__skill .content > img{
     width: 200px;
     height: auto;
 }
 
-.content:not(img){
-    text-align: center;
-}
-
-.content h4{
+.box__skill .content h4{
     font-size: x-large;
 }
 
-.content ul{
+.box__skill .content ul{
     list-style: none;
+}
+
+/* ======================= Project Style ======================= */
+
+.card{
+    width: 350px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 20px rgba(15, 15, 15, 0.582);
+    margin-bottom: 1em;
+}
+
+figure{
+    overflow: hidden;
+}
+
+.card > figure > img{
+    width: 100%;
+    height: 100%;
+}
+
+figcaption{
+    position: absolute;
+    z-index: 999;
+    transform: translate(1vw,-6vh);
+    font-size: 1.5em;
+    color: rgb(160, 16, 6);
+}
+
+.card__text{
+    padding: 1em;
+    font-family: 'Poppins',cursive;
+    font-weight: bold;
+}
+
+.card__text a{
+    display: inline-block;
+    background-color: black;
+    box-sizing: border-box;
+    color: white;
+    padding: 10px 1.3em;
+    border-radius: 20px;
+    margin-top: 9px;
+    text-decoration: none;
+}
+
+/* --------------- Footer -------------------- */
+
+footer{
+    background-color: rgba(0, 0, 0, 0.945);
+    color: white;
+    height: 3vh;
+    padding: 1.3em;
 }
