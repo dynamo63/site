@@ -12,7 +12,7 @@
 </head>
 <body>
     
-    <header>
+    <header class="hide-on-smartphone">
 
         <!-- Banner section -->
 
@@ -20,7 +20,7 @@
 
             <div class="center">Je m'appelle <h1>MOUCKEYTOU MOULONGUI</h1></div>
 
-            <h2> Developpeur Backend </h2>
+            <h2> Developpeur FullStack </h2>
 
             <ul>
                 <li>
@@ -56,7 +56,7 @@
 
         </div>
 
-        <div class="arrow">
+        <div class="arrow hide-on-smartphone-and-tablet">
             <i class="fa fa-hand-o-down" aria-hidden="true"></i>
         </div>
 
@@ -68,13 +68,14 @@
 
         <!-- On cree notre checkbox pour l'animation -->
         <input type="checkbox" id="nav" class="hidden">
+
         <label for="nav" class="nav-btn">
             <i></i>
             <i></i>
             <i></i>
         </label>
 
-        <section class="nav-desktop">
+        <section class="nav-desktop hide-on-smartphone">
             <ul>
                 <li>
                     <a href="#">Acceuil</a>
@@ -97,16 +98,16 @@
         <section class="nav-mobile">
             <ul>
                 <li>
-                    <a href="#">Accueil</a>
+                    <a href="#">Acceuil</a>
                 </li>
                 <li>
-                    <a href="#">A Propos de moi</a>
+                    <a href="#about-me">A Propos de moi</a>
                 </li>
                 <li>
-                    <a href="#">Services</a>
+                    <a href="#skill">Services</a>
                 </li>
                 <li>
-                    <a href="#">Competences</a>
+                    <a href="#project">Realisations</a>
                 </li>
                 <li>
                     <a href="#"> Blog </a>
@@ -117,13 +118,30 @@
     </nav>
 
     <main>
+
+        <!-- Home Page for mobile only -->
+
+        <div class="show-on-mobile home">
+
+            <div class="profil__home">
+                <img src="assets/img/IMG_20200130_130045_8.jpg" alt="MOUCKEYTOU MOULONGUI">
+            </div>
+
+            <div class="content__home">
+                <p>
+                    Hey! je m'appele <strong>MOUCKEYTOU MOULONGUI</strong> et je suis developpeur fullStack.
+                </p>
+            </div>
+
+        </div>
+
          <!-- A Propos de moi -->
 
         <section id="about-me" class="mb-6">
 
             <h1 class="heading-1 center">A Propos de moi</h1>
 
-            <p class="center">Je suis un berseker du numerique.</p>
+            <p class="center">Je suis un developpeur fullStack avec une forte appétence pour le backend</p>
 
             <div class="row container">
 
