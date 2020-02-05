@@ -565,7 +565,7 @@ footer{
     .profil__home > img{
         width: 70vw;
         height: 40vh;
-        object-fit: cover;
+        object-fit: contain;
         border-radius: 500px;
         margin-left: 2em;
         margin-bottom: 2em;
