@@ -43,7 +43,7 @@ body{
 /* ------------------------------ Header Style ------------------------------------*/
 
 header{
-    background-image: linear-gradient(to bottom,#0c0b0bc5,#000000cb),url('../img/IMG_20200130_130320_3.jpg');
+    background-image: linear-gradient(to bottom,#0c0b0bc5,#000000cb),url('../img/rsz_mouckeytou-moulongui.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -432,7 +432,7 @@ footer{
 @media all and (max-width:1024px) {
 
     header{
-        background-image: url('../img/IMG_20200130_130045_8.jpg');
+        background-image: url('../img/mouckeytou-sabil-mohammed.jpg');
         background-position: right;
     }
 
